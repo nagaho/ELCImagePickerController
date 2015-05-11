@@ -35,7 +35,7 @@
     if (self) {
         UIImageView *img = [[UIImageView alloc] initWithImage:image];
         [self addSubview:img];
-        
+        /*        
         if ([[ELCConsole mainConsole] onOrder]) {
             self.labIndex = [[UILabel alloc] initWithFrame:CGRectMake(5, 5, 16, 16)];
             self.labIndex.backgroundColor = [UIColor redColor];
@@ -49,6 +49,7 @@
             self.labIndex.font = [UIFont boldSystemFontOfSize:13];
             [self addSubview:self.labIndex];
         }
+        */
     }
     return self;
 }
